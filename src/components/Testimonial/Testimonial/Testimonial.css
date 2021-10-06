@@ -1,0 +1,55 @@
+.testimonial {
+  position: relative;
+  max-width: 500px;
+  border-radius: 14px;
+  height: 300px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  background-color: #fcfcfca4;
+}
+
+.testimonial__image {
+  position: absolute;
+  margin-left: -41%;
+  margin-top: -5%;
+  border-radius: 14px;
+}
+
+.testimonial__quote {
+  margin-top: 10%;
+  margin-left: 6.15%;
+  margin-right: 6.15%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  color: #595959;
+}
+
+.testimonial__employee {
+  margin-left: 4.15%;
+  margin-right: 60.31%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323232;
+}
+
+.testimonial__employeejobtitle {
+  margin-left: 6.15%;
+  margin-right: 41.96%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.testimonial__line {
+  max-width: 85%;
+  border: 1px solid #f2f2f2;
+}
