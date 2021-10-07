@@ -1,0 +1,69 @@
+.sectionIntro {
+  max-width: 600px;
+  height: 300px;
+}
+.sectionIntro__title {
+  margin-left: 10%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #33c9d3;
+}
+
+.sectionIntro__subtitle {
+  margin-right: 0%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #152c5b;
+}
+
+.sectionIntro__description {
+  margin-left: 15%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #33c9d3;
+}
+.sectionIntro__title--modifier {
+  margin-right: 70%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #33c9d3;
+}
+.sectionIntro__subtitle--modifier {
+  margin-right: 19%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #152c5b;
+}
+
+.sectionIntro__description--modifier {
+  margin-right: 19%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  color: #595959;
+}
