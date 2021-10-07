@@ -1,0 +1,8 @@
+.pageheroButton__button {
+  margin-left: 4vh;
+  border-radius: 14px;
+  border: 2px solid white;
+  padding: 16px 32px;
+  color: white;
+  cursor: pointer;
+}
