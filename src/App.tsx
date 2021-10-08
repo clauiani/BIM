@@ -15,6 +15,8 @@ import { HistoryPage } from "./Pages/HistoryPage/HistoryPage";
 import { RegulationsPage } from "./Pages/RegulationsPage/RegulationsPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navigation } from "./components/Navigation/Navigation";
+import { Video } from "./components/VideoThumbnail/Video";
+import { Benefits } from "./components/Benefit/Benefits/Benefits";
 function App() {
   return (
     <div className="App">
@@ -72,6 +74,11 @@ function App() {
         subtitle=" What Participants Say"
         description="These are things that participants who have used our features and works says."
       />
+      <br />
+      <Video />
+
+      <br />
+      <Benefits />
     </div>
   );
 }

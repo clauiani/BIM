@@ -1,6 +1,8 @@
 .card {
+  width: 100%;
+  height: 100%;
+  max-height: 327px;
   max-width: 383px;
-  height: 327px;
   border-radius: 14px;
   border: 1px solid #f2f2f2;
   box-sizing: border-box;
@@ -10,6 +12,7 @@
   margin-left: 8.89%;
   margin-right: 73.33%;
   max-width: 68.09px;
+
   background: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.15) 23.96%,
@@ -18,7 +21,7 @@
   border-radius: 14px;
 }
 .card__title {
-  margin-left: 4%;
+  margin-left: 8.89%;
   margin-right: 60.28%;
   max-width: 118.09px;
   font-family: Poppins;
@@ -38,6 +41,7 @@
   font-style: normal;
   font-size: 16px;
   line-height: 180%;
+
   color: #595959;
 }
 .card__button {
