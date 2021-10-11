@@ -1,10 +1,6 @@
 import "./App.css";
-import { Benefit } from "./components/Benefit/Benefit/Benefit";
-import BenefitImg1 from "./assets/benefit1.png";
 import Testimonial1 from "./assets/Testimonial1.png";
 import { Testimonial } from "./components/Testimonial/Testimonial/Testimonial";
-import Place1 from "./assets/Locul 1 (1).png";
-import { Prize } from "./components/Prize/Prize/Prize";
 import { PageHero } from "./components/PageHero/PageHero/PageHero";
 import { Employee } from "./components/EmployeeThumbnail/Employee";
 import Employee1 from "./assets/Poza Alex.png";
@@ -17,12 +13,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navigation } from "./components/Navigation/Navigation";
 import { Video } from "./components/VideoThumbnail/Video";
 import { Benefits } from "./components/Benefit/Benefits/Benefits";
+import { Prizes } from "./components/Prize/Prizes/Prizes";
+import { Footer } from "./components/Footer/Footer";
+import { Header } from "./components/Header/Header";
+import { Testimonials } from "./components/Testimonial/Testimonials/Testimonials";
 function App() {
   return (
     <div className="App">
       <div>
         <Router>
-          <Navigation />
+          <Header />
           <div>
             <Switch>
               <Route exact path="/Home" component={HomePage} />
@@ -37,11 +37,6 @@ function App() {
         title="Project Name"
         subtitle="By Strujac Alexandru/Update date"
       />
-      <Benefit
-        title="Benefit 1"
-        description=" Create, edit, copy, move, download your files easily, everywhere, every time. Use it as your personal cloud. "
-        image={BenefitImg1}
-      />
 
       <br />
       <br />
@@ -54,7 +49,6 @@ function App() {
       />
       <br />
 
-      <Prize image={Place1} place="1st Place" prize="1200$" />
       <br />
       <Employee
         image={Employee1}
@@ -79,6 +73,14 @@ function App() {
 
       <br />
       <Benefits />
+      <br />
+      <Prizes />
+      <br />
+      <Footer />
+      <br />
+      <br />
+      <Testimonials />
+      <br />
     </div>
   );
 }

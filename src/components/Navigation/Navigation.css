@@ -1,10 +1,10 @@
 .navigation {
-  width: 100%;
-  background-color: #ffffff;
+  width: 60%;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 10%;
 }
 .navigation__list {
   height: 100%;

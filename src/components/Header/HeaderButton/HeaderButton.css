@@ -1,0 +1,9 @@
+.HeaderButton__button {
+  max-width: 141px;
+  min-width: 141px;
+  margin-left: 4vh;
+  border-radius: 14px;
+  border-color: #33c9d3;
+  padding: 16px 32px;
+  cursor: pointer;
+}

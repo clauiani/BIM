@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1920px;
+  height: 281px;
+  background-image: url(../../assets/Rectangle.png);
+}
+
+.footer__bim-logo {
+  margin-right: 40%;
+  margin-top: 3%;
+}
+
+.footer__logos {
+  display: flex;
+  width: 7%;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.footer__arrow:hover {
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(238, 4, 43));
+}
+.footer__teams:hover {
+  filter: opacity(0.5) drop-shadow(0 0 0 blue);
+}
