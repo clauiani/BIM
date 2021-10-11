@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__bim-logo {
+  margin-right: 13%;
+  margin-left: 5%;
+}
+.header__buttons {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-right: 5%;
+}
