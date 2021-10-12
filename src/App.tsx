@@ -25,7 +25,7 @@ function App() {
           <Header />
           <div>
             <Switch>
-              <Route exact path="/Home" component={HomePage} />
+              <Route exact path="/" component={HomePage} />
               <Route exact path="/History" component={HistoryPage} />
               <Route exact path="/Bim" component={BimPage} />
               <Route exact path="/Regulations" component={RegulationsPage} />
@@ -33,54 +33,6 @@ function App() {
           </div>
         </Router>
       </div>
-      <PageHero
-        title="Project Name"
-        subtitle="By Strujac Alexandru/Update date"
-      />
-
-      <br />
-      <br />
-      <Testimonial
-        image={Testimonial1}
-        quote=" 
-        ”Everyone working in the office is very knowledgeable about all types of dental work and options for your individual needs.” "
-        employee="Gabriel Tironeac"
-        employeejobtitle="Head of Game Development "
-      />
-      <br />
-
-      <br />
-      <Employee
-        image={Employee1}
-        name="Alexandru Boca"
-        job="Head of Mobile Development"
-      />
-      <br />
-      <SectionIntro
-        centered={false}
-        title="Testimonials"
-        subtitle=" What Participants Say"
-        description="These are things that participants who have used our features and works says."
-      />
-      <SectionIntro
-        centered
-        title="Testimonials"
-        subtitle=" What Participants Say"
-        description="These are things that participants who have used our features and works says."
-      />
-      <br />
-      <Video />
-
-      <br />
-      <Benefits />
-      <br />
-      <Prizes />
-      <br />
-      <Footer />
-      <br />
-      <br />
-      <Testimonials />
-      <br />
     </div>
   );
 }
