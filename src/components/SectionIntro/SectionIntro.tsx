@@ -4,7 +4,7 @@ export interface ISectionIntroProps {
   title: string;
   subtitle: string;
   description: string;
-  centered?: true | false;
+  centered?: false | true;
 }
 
 export const SectionIntro = ({
@@ -17,7 +17,7 @@ export const SectionIntro = ({
     <div className="sectionIntro">
       <h4
         className={
-          centered ? "sectionIntro__title " : " sectionIntro__title--modifier"
+          centered ? "sectionIntro__title" : "sectionIntro__title--modifier"
         }>
         {title}
       </h4>

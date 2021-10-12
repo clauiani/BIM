@@ -3,7 +3,7 @@ export interface IVideoProps {}
 
 export const Video = ({}: IVideoProps) => {
   return (
-    <div className="aa">
+    <div>
       <iframe
         className="video"
         src="https://www.youtube.com/embed/YbJOTdZBX1"></iframe>

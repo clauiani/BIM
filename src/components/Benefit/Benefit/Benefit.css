@@ -7,6 +7,21 @@
   border: 1px solid #f2f2f2;
   box-sizing: border-box;
 }
+.card__modal {
+  border: 3px solid #b3ac9a;
+  border-radius: 10px;
+  background: white;
+  height: 30%;
+  width: 30%;
+  margin-left: 20%;
+  margin-top: 10%;
+  transform: translate(50%, 50%);
+}
+.card__modal-icon {
+  float: right;
+  margin-top: 3%;
+  margin-right: 5%;
+}
 .card__image {
   margin-top: 9.79%;
   margin-left: 8.89%;

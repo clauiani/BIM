@@ -11,7 +11,7 @@ export const Navigation = ({}: INavigationProps) => {
           <li className="navigation__list-item">
             <NavLink
               exact
-              to="/Home"
+              to="/"
               activeClassName="navigation__link--active"
               className="navigation__link">
               Home

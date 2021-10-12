@@ -1,5 +1,6 @@
 .video {
-  max-width: 915px;
-  height: 518;
+  width: 715px;
+  height: 110%;
   border-radius: 40px;
+  box-shadow: 33px -11px 17px 5px rgba(0, 0, 0, 0.51);
 }
