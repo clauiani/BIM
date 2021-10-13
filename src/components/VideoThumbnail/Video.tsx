@@ -1,4 +1,5 @@
 import "./Video.css";
+
 export interface IVideoProps {}
 
 export const Video = ({}: IVideoProps) => {
