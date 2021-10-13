@@ -10,15 +10,17 @@ import { Video } from "../../components/VideoThumbnail/Video";
 import { HeaderButton } from "../../components/Header/HeaderButton/HeaderButton";
 import YouTubeLogo from "../../assets/YoutubeLogo.png";
 import Vector2 from "../../assets/Vector2.png";
+import { Header } from "../../components/Header/Header";
 export interface IHomePageProps {}
 
 export const HomePage = ({}: IHomePageProps) => {
   return (
     <>
+      <Header />
       <div className="homePage">
         <div className="homePage__title">
           <p className="homePage__title-paragraph"> Innov</p>
-          <p className="homePage__title-paragraph"> tion.</p>
+          <p className="homePage__title-paragraph"> ation.</p>
           <div className="homePage__vector" />
           <p className="homePage__title-quote">
             Create value by applying novel solutions to meaningful problems

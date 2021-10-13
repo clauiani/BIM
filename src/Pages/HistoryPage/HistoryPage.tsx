@@ -1,5 +1,11 @@
+import { Header } from "../../components/Header/Header";
 export interface IHistoryPageProps {}
 
 export const HistoryPage = ({}: IHistoryPageProps) => {
-  return <div>History page</div>;
+  return (
+    <>
+      <Header />
+      <div>History page</div>
+    </>
+  );
 };
