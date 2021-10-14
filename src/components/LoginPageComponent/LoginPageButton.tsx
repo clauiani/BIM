@@ -17,7 +17,7 @@ export const LoginPageButton: React.FC<ILoginButtonProps> = ({
       <button
         className={!checked ? "loginButton" : "loginButton--modifier"}
         onClick={onClick}>
-        <CheckCircleOutlineIcon />
+        <CheckCircleOutlineIcon className="icon" />
         {name}
       </button>
     </>

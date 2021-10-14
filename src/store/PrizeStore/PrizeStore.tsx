@@ -11,32 +11,32 @@ class PrizeStore {
     {
       image: Locul1,
       place: "1st Place",
-      prize: "1200",
+      prize: "1200€",
     },
     {
       image: Locul2,
       place: "2nd Place",
-      prize: "900",
+      prize: "900€",
     },
     {
       image: Locul3,
       place: "3rd Place",
-      prize: "650",
+      prize: "650€",
     },
     {
       image: DisruptiveTech,
       place: "Most Disruptive Technology Award",
-      prize: "500",
+      prize: "500€",
     },
     {
       image: InnovationLab,
       place: "ASSIST Innovation Lab",
-      prize: "500",
+      prize: "500€",
     },
     {
       image: Popularity,
       place: "ASSIST Popularity Award",
-      prize: "350",
+      prize: "350€",
     },
   ];
   constructor() {
