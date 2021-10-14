@@ -1,0 +1,6 @@
+.student-prizes {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7%;
+  max-width: 933px;
+}

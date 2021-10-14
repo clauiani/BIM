@@ -12,5 +12,28 @@
   color: #595959;
 }
 .loginButton--modifier {
+  width: 383px;
+  height: 165px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 180%;
+  color: #212127;
+}
+
+.loginButton .icon {
+  visibility: hidden;
+}
+
+.loginButton--modifier .icon {
+  visibility: visible;
+  display: flex;
+  justify-content: right;
+  color: #33c9d3;
   background-color: red;
+  width: 100%;
 }

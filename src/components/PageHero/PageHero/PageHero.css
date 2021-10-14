@@ -5,20 +5,22 @@
 }
 
 .pagehero__title {
+  display: inline-block;
+  margin-top: 0;
+  margin-right: 44%;
   max-width: 1070px;
-  margin-left: -10%;
+
   padding-top: 5%;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
-  line-height: 68px;
-  letter-spacing: -0.5px;
+
   color: #ffffff;
 }
 
 .pagehero__subtitle {
-  margin-right: 70%;
+  margin-right: 76%;
   margin-top: -3%;
   font-family: Poppins;
   font-style: normal;

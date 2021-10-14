@@ -1,0 +1,67 @@
+.bimpage__description {
+  display: flex;
+  max-width: 30%;
+  margin-left: 7%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #152c5b;
+}
+.bimpage__description-paragraph {
+  max-width: 933px;
+  margin-top: 0%;
+  margin-left: 7%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.paragraph {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  color: #595959;
+}
+.paragraph-bold {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 180%;
+}
+.bimpage__description-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1920px;
+}
+.bimpage__description-container .bimpage__description {
+  margin-left: 0%;
+}
+.bimpage__prizes {
+  padding-left: 2%;
+  margin-top: 2%;
+  margin-right: 7%;
+  width: 520px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(21, 44, 91, 0.15);
+  border-radius: 24px;
+}
+.bimpage__prizes-title {
+  display: flex;
+  align-items: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #152c5b;
+}
+
+.bimpage__studentprizes {
+  background-color: red;
+}

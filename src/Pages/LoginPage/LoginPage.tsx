@@ -39,8 +39,16 @@ export const LoginPage = ({}: ILoginPageProps) => {
         />
       </div>
       <div className="loginPage__buttons">
-        <LoginPageButton name="aaa" onClick={handleClick1} checked={check} />
-        <LoginPageButton name="bbb" onClick={handleClick2} checked={check2} />
+        <LoginPageButton
+          name="I have an ideea"
+          onClick={handleClick1}
+          checked={check}
+        />
+        <LoginPageButton
+          name="I want to team up"
+          onClick={handleClick2}
+          checked={check2}
+        />
       </div>
       <button className="loginPage__login-button">
         {" "}

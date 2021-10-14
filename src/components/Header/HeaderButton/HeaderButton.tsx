@@ -17,7 +17,8 @@ export const HeaderButton = ({
     <div className="HeaderButton">
       <button
         className="HeaderButton__button"
-        style={{ background: background, color: color }}>
+        style={{ background: background, color: color }}
+        onClick={onClick}>
         {name}
       </button>
     </div>
