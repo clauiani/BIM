@@ -1,6 +1,9 @@
 .employee {
   max-width: 400px;
   height: 300px;
+
+  margin-bottom: 7%;
+  box-sizing: border-box;
 }
 .employee__image {
   background: #faf7f2;
@@ -8,8 +11,10 @@
 }
 
 .employee__name {
+  text-align: left;
+  margin-left: 4%;
   margin-top: 2%;
-  margin-right: 60%;
+
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -19,7 +24,8 @@
 }
 .employee__job {
   margin-top: -3%;
-  margin-right: 34%;
+  text-align: left;
+  margin-left: 4%;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
