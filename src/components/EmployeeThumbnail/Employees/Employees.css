@@ -1,0 +1,10 @@
+.employees {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 7%;
+}
+.employees__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3%;
+}
