@@ -1,0 +1,22 @@
+.submitprojectname {
+  margin-right: 3%;
+}
+.submitprojectname__title {
+  display: flex;
+
+  margin-bottom: 1%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.submitprojectname__input {
+  left: 562px;
+  top: 587px;
+  border: 1px solid #595959;
+  box-sizing: border-box;
+  border-radius: 14px;
+}

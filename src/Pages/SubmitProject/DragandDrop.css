@@ -1,0 +1,32 @@
+.drop__title {
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: center;
+  color: #212127;
+}
+
+.drop__button {
+  margin-top: 3%;
+  max-width: 140px;
+  height: 36px;
+  left: 328px;
+  top: 241px;
+
+  border: 1px solid #6c6c6c;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+.drop__paragraph {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  color: #212127;
+}
