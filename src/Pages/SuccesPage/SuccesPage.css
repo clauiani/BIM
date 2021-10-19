@@ -1,0 +1,41 @@
+.succes__button {
+  margin-top: 2%;
+  width: 186px;
+  height: 60px;
+  left: 867px;
+  top: 647px;
+  background-color: #ffffff;
+  border: 1px solid #33c9d3;
+  box-sizing: border-box;
+  border-radius: 14px;
+  color: #33c9d3;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.succes__paragraph {
+  margin: 0 auto;
+  margin-top: 3%;
+  max-width: 600px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  color: #595959;
+}
+
+.succes__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #152c5b;
+}

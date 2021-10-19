@@ -1,0 +1,12 @@
+.entries__title {
+  display: flex;
+  margin-left: 5%;
+  justify-content: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #152c5b;
+}
