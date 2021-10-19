@@ -1,0 +1,11 @@
+.members {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5%;
+}
+
+.members__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3%;
+}

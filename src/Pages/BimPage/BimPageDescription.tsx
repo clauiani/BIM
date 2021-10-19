@@ -1,7 +1,7 @@
 import { StudentPrizes } from "../../components/StudentPrize/StudentPrizes/StudentPrizes";
 import { Prizes } from "../../components/Prize/Prizes/Prizes";
 import { Employees } from "../../components/EmployeeThumbnail/Employees/Employees";
-import { Footer } from "../../components/Footer/Footer";
+
 import "./BimPageDescription.css";
 
 export interface IBimPageDescriptionProps {}
@@ -59,7 +59,6 @@ export const BimPageDescription = ({}: IBimPageDescriptionProps) => {
       <StudentPrizes />
       <h2 className="bimpage__jury-title">Meet the jury</h2>
       <Employees />
-      <Footer />
     </>
   );
 };

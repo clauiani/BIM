@@ -1,0 +1,28 @@
+.project__uppart {
+  display: flex;
+  justify-content: space-between;
+}
+.project__uppart-presentation {
+  margin-top: 5%;
+  margin-right: 3%;
+
+  width: 520px;
+  height: 85px;
+  background: #ffffff;
+  border: 1px solid #595959;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+
+.project__team-members-title {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 3%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #152c5b;
+}
