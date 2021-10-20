@@ -26,3 +26,30 @@
   letter-spacing: -0.5px;
   color: #152c5b;
 }
+.project__button-submit {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 149px;
+  height: 60px;
+  left: 150px;
+  top: 2167px;
+  background: #0b111f;
+  border-radius: 14px;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+  padding: 1% 1.5%;
+}
+
+.project__vote-title {
+  display: flex;
+  margin-left: 5%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #152c5b;
+}

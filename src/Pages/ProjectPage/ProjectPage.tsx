@@ -2,7 +2,9 @@ import { Header } from "../../components/Header/Header";
 import { PageHero } from "../../components/PageHero/PageHero/PageHero";
 import { Description } from "../../components/DescriptionComponent/DescriptionComponent";
 import "./ProjectPage.css";
+import { Votes } from "../../components/VoteComponent/VotesComponent/Votes";
 import { TeamMembers } from "../../components/TeamMembers/Members/Members";
+import { Footer } from "../../components/Footer/Footer";
 export interface IProjectPageProps {}
 
 export const ProjectPage = ({}: IProjectPageProps) => {
@@ -28,6 +30,11 @@ export const ProjectPage = ({}: IProjectPageProps) => {
         <h2 className="project__team-members-title">Team Members</h2>
 
         <TeamMembers />
+        <br />
+        <h2 className="project__vote-title">Vote</h2>
+        <Votes />
+        <button className="project__button-submit">Submit Vote</button>
+        <Footer />
       </div>
     </>
   );
