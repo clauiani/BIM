@@ -1,0 +1,39 @@
+.vote {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.vote__criteria {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  color: #212127;
+}
+
+.vote__points {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #595959;
+  border-radius: 8px;
+}
+
+.test {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.vote__weight {
+  float: right;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 180%;
+  color: #212127;
+}
