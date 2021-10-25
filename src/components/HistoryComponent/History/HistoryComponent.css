@@ -1,0 +1,65 @@
+.history {
+  max-width: 400px;
+  height: 300px;
+  margin-bottom: 7%;
+  box-sizing: border-box;
+}
+.history__image {
+  background: #faf7f2;
+  border-radius: 24px;
+}
+
+.history__title {
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 2%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323232;
+}
+
+.history__author {
+  margin-top: -3%;
+  text-align: left;
+  margin-left: 4%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.history__likeicon {
+  margin-top: -7%;
+  display: flex;
+  float: right;
+  margin-right: 13%;
+}
+.history__likeicon-clicked {
+  margin-top: -7%;
+  display: flex;
+  float: right;
+  margin-right: 13%;
+  border-image-width: 80px;
+  filter: brightness(1.75) opacity(0.2) drop-shadow(0 0 0 rgb(78, 2, 255));
+}
+.history__icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -75%;
+  margin-left: 5%;
+}
+.history__icons-icon {
+  margin-left: 2%;
+}
+
+.history__likes-count {
+  display: flex;
+  float: right;
+  margin-right: -20%;
+  margin-top: -6%;
+}

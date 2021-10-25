@@ -1,11 +1,12 @@
 import { Header } from "../../components/Header/Header";
+import { PageHero } from "../../components/PageHero/PageHero/PageHero";
 export interface IRegulationPageProps {}
 
 export const RegulationsPage = ({}: IRegulationPageProps) => {
   return (
     <>
       <Header />
-      <div>Regulation page</div>
+      <PageHero title="Regulations" subtitle="" />
     </>
   );
 };
