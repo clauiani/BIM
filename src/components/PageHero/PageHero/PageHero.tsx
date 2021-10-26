@@ -6,12 +6,20 @@ const { TabPane } = Tabs;
 export interface IPageHeroProps {
   title: string;
   subtitle: string;
+  onchange?: () => void;
+  description?: string;
+  entries?: string;
+  onclick?: () => void;
 }
 
-export const PageHero = ({ title, subtitle }: IPageHeroProps) => {
-  function callback(key: any) {
-    console.log(key);
-  }
+export const PageHero = ({
+  title,
+  subtitle,
+  entries,
+  onchange,
+  onclick,
+  description,
+}: IPageHeroProps) => {
   return (
     <div className="pagehero">
       <h4 className="pagehero__title">{title}</h4>
@@ -20,7 +28,15 @@ export const PageHero = ({ title, subtitle }: IPageHeroProps) => {
         <PageHeroButtons name="Delete" color="#152C5B" />
         <PageHeroButtons name="Edit" color="#33C9D3" />
       </div>
-      <div className="pagehero__tabs"></div>
+      <div className="pagehero__tabs">
+        <button className="pagehero__tabs-buttons" onClick={onchange}>
+          {" "}
+          {description}
+        </button>
+        <button className="pagehero__tabs-buttons" onClick={onclick}>
+          {entries}
+        </button>
+      </div>
     </div>
   );
 };

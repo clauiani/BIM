@@ -44,4 +44,4 @@ class PrizeStore {
   }
 }
 
-export default new PrizeStore();
+export const prizeStore = new PrizeStore();

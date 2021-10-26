@@ -14,9 +14,9 @@ export const HeaderButton = ({
   onClick,
 }: IHeaderButtonProps) => {
   return (
-    <div className="HeaderButton">
+    <div>
       <button
-        className="HeaderButton__button"
+        className="header__button"
         style={{ background: background, color: color }}
         onClick={onClick}>
         {name}

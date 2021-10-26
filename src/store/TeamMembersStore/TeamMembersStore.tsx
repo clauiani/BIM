@@ -29,4 +29,4 @@ class MembersStore {
   }
 }
 
-export default new MembersStore();
+export const membersStore = new MembersStore();

@@ -21,4 +21,4 @@ class StudentPrizeStore {
     makeAutoObservable(this);
   }
 }
-export default new StudentPrizeStore();
+export const studentPrize = new StudentPrizeStore();

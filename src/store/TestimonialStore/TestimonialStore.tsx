@@ -39,4 +39,4 @@ class TestimonialStore {
   }
 }
 
-export default new TestimonialStore();
+export const testimonialStore = new TestimonialStore();

@@ -51,4 +51,4 @@ class VoteStore {
   }
 }
 
-export default new VoteStore();
+export const voteStore = new VoteStore();

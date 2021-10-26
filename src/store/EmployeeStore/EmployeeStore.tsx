@@ -44,4 +44,4 @@ class EmployeeStore {
     makeAutoObservable(this);
   }
 }
-export default new EmployeeStore();
+export const employeeStore = new EmployeeStore();
