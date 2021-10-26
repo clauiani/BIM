@@ -39,4 +39,4 @@ class BenefitStore {
   }
 }
 
-export default new BenefitStore();
+export const benefitStore = new BenefitStore();

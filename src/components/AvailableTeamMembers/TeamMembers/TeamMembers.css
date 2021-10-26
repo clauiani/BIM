@@ -1,0 +1,12 @@
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.team-members__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3%;
+}

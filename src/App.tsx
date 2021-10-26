@@ -9,7 +9,7 @@ import { SubmitProjectPage } from "./Pages/SubmitProject/SubmitProject";
 import { LoginPage } from "./Pages/LoginPage/LoginPage";
 import { SuccesPage } from "./Pages/SuccesPage/SuccesPage";
 import { ProjectPage } from "./Pages/ProjectPage/ProjectPage";
-
+import { AvailableTeamMembersPage } from "./Pages/AvailableTeamMemers.page";
 function App() {
   return (
     <div className="App">
@@ -23,6 +23,11 @@ function App() {
               <Route exact path="/Regulations" component={RegulationsPage} />
               <Route exact path="/Login" component={LoginPage} />
               <Route exact path="/Succes" component={SuccesPage} />
+              <Route
+                exact
+                path="/AvailableMembers"
+                component={AvailableTeamMembersPage}
+              />
               <Route
                 exact
                 path="/SubmitProject"

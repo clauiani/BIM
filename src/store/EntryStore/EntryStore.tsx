@@ -105,4 +105,4 @@ class EntryStore {
   }
 }
 
-export default new EntryStore();
+export const entryStore = new EntryStore();

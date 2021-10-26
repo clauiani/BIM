@@ -79,4 +79,4 @@ class HistoryStore {
   }
 }
 
-export default new HistoryStore();
+export const historyStore = new HistoryStore();

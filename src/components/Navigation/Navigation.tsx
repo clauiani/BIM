@@ -31,6 +31,17 @@ export const Navigation = ({}: INavigationProps) => {
           <li className="navigation__list-item">
             <NavLink
               exact
+              to="/AvailableMembers"
+              activeClassName="navigation__link--active"
+              className="navigation__link">
+              Available team members
+              <span className="navigation__dot"></span>
+            </NavLink>
+          </li>
+
+          <li className="navigation__list-item">
+            <NavLink
+              exact
               to="/History"
               activeClassName="navigation__link--active"
               className="navigation__link">

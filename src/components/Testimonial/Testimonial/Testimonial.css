@@ -1,5 +1,4 @@
 .testimonial {
-  position: relative;
   max-width: 500px;
   border-radius: 14px;
   height: 300px;
@@ -9,8 +8,7 @@
 }
 
 .testimonial__image {
-  position: absolute;
-  margin-left: -41%;
+  margin-left: -70%;
   margin-top: -5%;
   border-radius: 14px;
 }
