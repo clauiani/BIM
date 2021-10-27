@@ -2,11 +2,11 @@ import { useState } from "react";
 import { Fragment } from "react";
 import { PageHero } from "../../components/PageHero/PageHero/PageHero";
 import { Header } from "../../components/Header/Header";
-import "./SubmitProject.css";
 import { SubmitProjectName } from "../../components/SubmitProjectName/SubmitProjectName";
 import { SubmitProjectMember } from "../../components/SubmitProjectName/SubmitProjectMember";
 import { Footer } from "../../components/Footer/Footer";
 import { DropDown } from "./DragandDrop";
+import "./SubmitProject.css";
 
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
 export interface ISubmitProjectPageProps {}

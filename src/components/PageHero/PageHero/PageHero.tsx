@@ -1,7 +1,6 @@
-import "./PageHero.css";
-import { PageHeroButtons } from "../PageHeroButtons/PageHeroButton";
 import { Tabs } from "antd";
-
+import { PageHeroButtons } from "../PageHeroButtons/PageHeroButton";
+import "./PageHero.css";
 const { TabPane } = Tabs;
 export interface IPageHeroProps {
   title: string;

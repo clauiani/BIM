@@ -1,7 +1,7 @@
-import "./Footer.css";
 import BimLogo from "../../assets/BimLogo.png";
 import Arrow from "../../assets/arrow.png";
 import Teams from "../../assets/teams.png";
+import "./Footer.css";
 export interface IFooterProps {}
 
 export const Footer = ({}: IFooterProps) => {

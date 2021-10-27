@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-
-import { Prize } from "../Prize/Prize";
 import { prizeStore } from "../../../store/PrizeStore/PrizeStore";
+import { Prize } from "../Prize/Prize";
 import "./Prizes.css";
 export interface IPrizesProps {}
 

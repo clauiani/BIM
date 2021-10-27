@@ -1,6 +1,5 @@
-import "./LoginPageButton.css";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
-
+import "./LoginPageButton.css";
 export interface ILoginButtonProps {
   name?: string;
   checked?: true | false;

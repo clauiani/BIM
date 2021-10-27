@@ -1,10 +1,10 @@
 import { Header } from "../../components/Header/Header";
 import { PageHero } from "../../components/PageHero/PageHero/PageHero";
 import { Description } from "../../components/DescriptionComponent/DescriptionComponent";
-import "./ProjectPage.css";
 import { Votes } from "../../components/VoteComponent/VotesComponent/Votes";
 import { TeamMembers } from "../../components/TeamMembers/Members/Members";
 import { Footer } from "../../components/Footer/Footer";
+import "./ProjectPage.css";
 export interface IProjectPageProps {}
 
 export const ProjectPage = ({}: IProjectPageProps) => {

@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-
-import { Testimonial } from "../Testimonial/Testimonial";
 import { testimonialStore } from "../../../store/TestimonialStore/TestimonialStore";
+import { Testimonial } from "../Testimonial/Testimonial";
 import "./Testimonials.css";
 
 export interface ITestimonialsProps {}

@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-
-import { Benefit } from "../Benefit/Benefit";
 import { benefitStore } from "../../../store/BenefitStore/BenefitStore";
+import { Benefit } from "../Benefit/Benefit";
 import "./Benefits.css";
 
 export interface IBenefitsProps {}
