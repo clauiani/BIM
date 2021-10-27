@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-
-import { Employee } from "../Employee/Employee";
 import { employeeStore } from "../../../store/EmployeeStore/EmployeeStore";
+import { Employee } from "../Employee/Employee";
 import "./Employees.css";
 
 export interface IEmployeeProps {}

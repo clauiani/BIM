@@ -1,27 +1,14 @@
 .regulations {
+  display: flex;
+  margin-top: 2%;
   margin-left: 5%;
 }
 .regulations__title {
   font-family: Poppins;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 28px;
   line-height: 42px;
   letter-spacing: -0.5px;
   color: #152c5b;
-}
-
-.regulations__subtitle {
-  width: 100%;
-  display: table;
-  flex-direction: column;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 180%;
-  color: #595959;
-}
-.test {
-  display: table-row;
 }

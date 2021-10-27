@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-
-import { AvailableTeamMembers } from "../TeamMember/AvailableTeamMembers";
 import { availableMembers } from "../../../store/AvailableTeamMembers/AvailableTeamMembers";
+import { AvailableTeamMembers } from "../TeamMember/AvailableTeamMembers";
 import "./TeamMembers.css";
 export interface ITeamMembersProps {}
 

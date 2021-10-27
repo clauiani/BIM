@@ -1,5 +1,5 @@
-import "./Navigation.css";
 import { NavLink, BrowserRouter as Router } from "react-router-dom";
+import "./Navigation.css";
 
 export interface INavigationProps {}
 

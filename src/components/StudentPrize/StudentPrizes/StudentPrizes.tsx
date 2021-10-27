@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-
-import { StudentPrize } from "../StudentPrize/StudentPrize";
 import { studentPrize } from "../../../store/StudentPrizeStore/StudentPrizeStore";
+import { StudentPrize } from "../StudentPrize/StudentPrize";
 import "./StudentPrizes.css";
 
 export interface IStudentPrizesProps {}

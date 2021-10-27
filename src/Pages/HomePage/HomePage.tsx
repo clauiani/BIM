@@ -1,5 +1,5 @@
-import "./HomePage.css";
 import Group from "../../assets/Group.png";
+import Vector2 from "../../assets/Vector2.png";
 import { SectionIntro } from "../../components/SectionIntro/SectionIntro";
 import { Benefits } from "../../components/Benefit/Benefits/Benefits";
 import { Testimonials } from "../../components/Testimonial/Testimonials/Testimonials";
@@ -9,8 +9,8 @@ import { Footer } from "../../components/Footer/Footer";
 import { Video } from "../../components/VideoThumbnail/Video";
 import { HeaderButton } from "../../components/Header/HeaderButton/HeaderButton";
 import YouTubeLogo from "../../assets/YoutubeLogo.png";
-import Vector2 from "../../assets/Vector2.png";
 import { Header } from "../../components/Header/Header";
+import "./HomePage.css";
 export interface IHomePageProps {}
 
 export const HomePage = ({}: IHomePageProps) => {

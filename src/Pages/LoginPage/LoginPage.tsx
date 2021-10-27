@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./LoginPage.css";
 import BimLogoLarge from "../../assets/BimLogoLarge.png";
 import { LoginPageButton } from "../../components/LoginPageComponent/LoginPageButton";
+import "./LoginPage.css";
 export interface ILoginPageProps {}
 
 export const LoginPage = ({}: ILoginPageProps) => {

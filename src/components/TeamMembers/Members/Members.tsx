@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-
-import { Member } from "../Member/TeamMembers";
 import { membersStore } from "../../../store/TeamMembersStore/TeamMembersStore";
+import { Member } from "../Member/TeamMembers";
 import "./Members.css";
 
 export interface IMembersProps {}

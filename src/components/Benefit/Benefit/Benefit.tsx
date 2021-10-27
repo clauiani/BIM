@@ -1,7 +1,7 @@
-import "./Benefit.css";
-import Modal from "react-modal";
 import { useState } from "react";
+import Modal from "react-modal";
 import CloseIcon from "@mui/icons-material/Close";
+import "./Benefit.css";
 Modal.setAppElement("#root");
 export interface IBenefitProps {
   title: string;

@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
-
-import { Entry } from "../EntryComponent/EntryComponent";
 import { entryStore } from "../../../store/EntryStore/EntryStore";
+import { Entry } from "../EntryComponent/EntryComponent";
 import "./Entries.css";
 
 export interface IEntriesProps {}

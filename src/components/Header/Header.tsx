@@ -1,8 +1,8 @@
-import "./Header.css";
+import { useHistory } from "react-router-dom";
+import BimLogo from "../../assets/BimLogo.png";
 import { Navigation } from "../Navigation/Navigation";
 import { HeaderButton } from "./HeaderButton/HeaderButton";
-import BimLogo from "../../assets/BimLogo.png";
-import { useHistory } from "react-router-dom";
+import "./Header.css";
 
 export interface IHeaderProps {}
 
